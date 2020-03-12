@@ -75,7 +75,7 @@
     <span>:cn:</span>
   </a>
   <a href="docs/i18n/zh_tw.md#readme">
-    <span>:cn:</span>
+    <span>:taiwan:</span>
   </a>
   <a href="docs/i18n/pl.md#readme">
     <span>:poland:</span>
@@ -235,7 +235,7 @@ If you have any questions regarding **Mark Text**, you are welcome to write an i
 
 ## Contribution
 
-Mark Text is in full development, please make sure to read the [Contributing Guide](CONTRIBUTING.md) before making a pull request. Want to add some features to Mark Text? Refer to our [roadmap](ROADMAP.md) and open issues.
+Mark Text is in full development, please make sure to read the [Contributing Guide](CONTRIBUTING.md) before making a pull request. Want to add some features to Mark Text? Refer to our [roadmap](https://github.com/marktext/marktext/projects) and open issues.
 
 ## Contributors
 

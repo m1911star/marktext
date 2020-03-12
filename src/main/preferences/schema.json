@@ -65,7 +65,7 @@
   "editorFontFamily": {
     "description": "Editor--editor font family",
     "type": "string",
-    "pattern": "^[_A-z0-9]+((-|\\s)*[_A-z0-9])*$"
+    "pattern": "^[^\\s]+((-|\\s)*[^\\s])*$"
   },
   "fontSize": {
     "description": "Editor--Font size in pixels",
@@ -96,7 +96,7 @@
   "codeFontFamily": {
     "description": "Editor--Font family used in code block",
     "type": "string",
-    "pattern": "^[_A-z0-9]+((-|\\s)*[_A-z0-9])*$"
+    "pattern": "^[^\\s]+((-|\\s)*[^\\s])*$"
   },
   "codeBlockLineNumbers": {
     "description": "Editor--Whether to show the line numbers",
@@ -197,6 +197,11 @@
   },
   "hideLinkPopup": {
     "description": "Editor--Hide link popup when the cursor is hover on the link",
+    "type": "boolean",
+    "default": false
+  },
+  "autoCheck": {
+    "description": "Editor--Whether to automatically check related task.",
     "type": "boolean",
     "default": false
   },
